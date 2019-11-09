@@ -1,0 +1,22 @@
+{
+	"name": "Coursebook++",
+	"version": "1.0",
+	"description": "Displays utdgrades and ratemyprof info for a selected course on coursebook.utd",
+	"permissions": ["declarativeContent", "storage"],
+	//"options_page": "options.html",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"page_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+		"16": "images/pixelTemoc16.png"
+		}
+	},
+	"icons": {
+		"16": "images/pixelTemoc16.png"
+	},
+	"manifest_version": 2
+	
+}
