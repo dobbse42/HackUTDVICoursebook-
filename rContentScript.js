@@ -5,7 +5,7 @@ for(i = 1; ((document.getElementById("r-"+i)) != null);i++)
 	}
 	
 //+3 is prof, + 1 is course number
-const columnTags = document.getElementsByTagName('td');
+columnTags = document.getElementsByTagName('td');
 for(i = 1; i < columnTags.length; i++) {
 	if(i == (x*7)+3) {y = (columnTags[i].innerHTML)}
 }
@@ -37,4 +37,6 @@ for(j = 0; j < w.length; j++) {
 	}
 } //this works.
 
+
 window.open("https://www.ratemyprofessors.com/search.jsp?query=utd+"+w.join(""));
+
